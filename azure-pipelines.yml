@@ -20,6 +20,5 @@ steps:
     location: 'Central US'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/quqjl/ccoe/main/create_web_app/azuredeploy.json'
-    overrideParameters: '-projectName [ccoe]'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
