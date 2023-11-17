@@ -11,7 +11,7 @@
       "name": "demo",
       "properties": {
         "templateLink": {
-          "id": "[resourceId('Microsoft.Web/serverfarms', 'ccoe')]"
+          "id": "[resourceId('ccoe-devops', 'Microsoft.Resources/templateSpecs/versions', 'storageSpec', '1.0')]"
         },
         "parameters": {
         },
