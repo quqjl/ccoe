@@ -11,7 +11,7 @@
       "name": "demo",
       "properties": {
         "templateLink": {
-          "id": "[subscriptionResourceId('/subscriptions/b1ffc885-f174-4327-b964-425ad3700010/resourceGroups/ccoe-devops/providers/Microsoft.Resources/templateSpecs/createResourceGroups','ccoe-devops', 'Microsoft.Resources/templateSpecs/versions', 'storageSpec')]"
+          "id": "/subscriptions/b1ffc885-f174-4327-b964-425ad3700010/resourceGroups/ccoe-devops/providers/Microsoft.Resources/templateSpecs/createResourceGroups"
         },
         "parameters": {
         },
