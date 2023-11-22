@@ -1,0 +1,23 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {},
+  "functions": [],
+  "variables": {},
+  "resources": [
+    {
+      "type": "Microsoft.Resources/deployments",
+      "apiVersion": "2021-04-01",
+      "name": "demo",
+      "properties": {
+        "templateLink": {
+          "id": "/subscriptions/b1ffc885-f174-4327-b964-425ad3700010/resourceGroups/ccoe-devops/providers/Microsoft.Resources/templateSpecs/createResourceGroups/versions/1.1"
+        },
+        "parameters": {
+        },
+        "mode": "Incremental"
+      }
+    }
+  ],
+  "outputs": {}
+}
